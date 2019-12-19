@@ -1,0 +1,51 @@
+---
+title: "HMMVMS"
+substitle: ""
+abstract: "" 
+author: Gilles Guillot, Pierre Benoit, Savvas Kinalis, Francois Bastardie, Valerio Bartolino
+date: "`r Sys.time()`"
+output:
+  rmarkdown::html_vignette:
+  #pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+vignette: >
+  %\VignetteIndexEntry{HMMVMS}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  eval=FALSE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#library(HMMVMS)
+```
+
+
+
+
+# Overview
+This page provides information about the computer program HMMVMS, an R package for detecting fishing activity from VMS data.
+
+
+
+
+
+
+
+
+
+
+# References
+The model and algorithm underlying the HMMVMS program are described in 
+
+* Guillot, Gilles, Pierre Benoit, Savvas Kinalis, François Bastardie, and Valerio Bartolino. "Enhancing and comparing methods for the detection of fishing activity from Vessel Monitoring System data." arXiv preprint [arXiv:1708.09663](https://arxiv.org/abs/1708.09663) (2017). 
+
+ 

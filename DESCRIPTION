@@ -1,0 +1,26 @@
+Package: HMMVMS
+Title: Hidden Markov Models for the analysis of Vessel Monitoring data
+Version: 0.0.0.9001
+Authors@R:  c(person(given = "Pierre",
+           family = "Benoit"),
+    person(given = "Gilles",
+           family = "Guillot",
+           role = c("aut", "cre"),
+           email = "gilles.b.guillot@gmail.com",
+           comment = c(ORCID = "0000-0003-0675-8325")) ,
+           person(given = "Savvas",
+           family = "Kinalis"))
+Maintainer@R:  person(given = "Gilles",
+           family = "Guillot",
+           role = c("aut", "cre"),
+           email = "gilles.b.guillot@gmail.com",
+           comment = c(ORCID = "0000-0003-0675-8325"))            
+Description: Perform statistical estimation of vessel state
+License: GPL-3
+Encoding: UTF-8
+LazyData: true  
+Imports: knitr, rmarkdown, depmixS4, mclust, timeDate, lubridate, nleqslv, mixtools,mvtnorm
+URL: https://github.com/gilles-guillot/HMMVMS
+BugReports: https://github.com/gilles-guillot/HMMVMS/issues
+RoxygenNote: 7.0.0.9000
+VignetteBuilder: knitr
